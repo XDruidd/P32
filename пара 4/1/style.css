@@ -1,0 +1,23 @@
+img{
+    float: left;
+    margin-right: 10px;
+}
+body{
+    background-image: url(https://t4.ftcdn.net/jpg/03/45/90/07/240_F_345900739_YaC9rWyUqXk5zLr2ljzNYPNa3hcHLevj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+div{
+    color:white
+}
+p{ 
+    height: 300px;
+    border: 1px solid white ;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjYLCTEMZEeotlp86JSuLSNUAOVwCF4_fd1ev83rl3dQ&s);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}

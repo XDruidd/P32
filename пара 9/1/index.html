@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/1/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://www.google.com/search" method="get">
+        <fieldset>
+            <legend>Registration</legend>
+
+        <span>Login</span>
+        <br>
+        <input type="text" name="q">
+        <br>
+        <span>Password*</span>
+        <br>
+        <input type="password" name="password" required>
+        <br>
+        <span>Age</span>
+        <br>
+        <input type="number" name="age" max="100" min="0">
+        <br>
+        <span>Email</span>
+        <br>
+        <input type="email" name="email" pattern="">
+        <br>
+        <span>Tel</span>
+        <br>
+        <input type="tel" name="tel" pattern="" placeholder="+380">
+        <br>
+        </fieldset>
+
+        <span>Language</span>
+        <br>
+        <input type="checkbox" name="java">java<br>
+        <input type="checkbox" name="Python">Python<br>
+        <input type="checkbox" name="cpp">C++<br>
+        <input type="checkbox" name="csharp">C#<br>
+        <span>Gender</span>
+        <br>
+        <input type="radio" name="item" id="mele">Mele
+        <input type="radio" name="item" id="femele">Femele
+        <input type="radio" name="item" id="None">None
+        <br>
+        <input type="file" name="file"><br>
+        <input type="color" name=" color"><br>
+        <input type="range" name="slider"><br>
+        <textarea name="" id="" cols="30" rows="5"></textarea><br>
+        <select name="cities" id="">
+            <option value="">-</option>
+            <option value="">Dnipro</option>
+            <option value="">Lviv</option>
+            <option value="">Kiyiv</option>
+        </select>
+        
+        <br>
+        <input type="reset">        
+        <input type="submit">
+    </form>
+</body>
+</html>

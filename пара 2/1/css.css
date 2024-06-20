@@ -1,0 +1,42 @@
+div{
+    margin-top: 10px;
+    margin-bottom: 30px
+}
+/* 
+.first{
+    background-color: yellow;
+    color:black;
+}
+
+.seconds{
+    background-color: red;
+    opacity: 0.5;
+}
+
+.third{
+    margin: 0px;
+    padding: 0px;
+    width: 200px; 
+    text-align: center;
+}*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+.righ{
+    text-align: right;
+}
+
+.one{
+    opacity: 0.5;
+}
+.two{
+    opacity: 0.3;
+}
+
+.big{
+ margin-top: 50px;
+}

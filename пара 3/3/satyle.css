@@ -1,0 +1,29 @@
+#lists ol{
+list-style-type: upper-alpha;
+}
+
+#lists ol li{
+    background-color: orange;
+    margin-bottom: 5px;
+    padding: 3px;
+  
+}
+
+#lists ol li a{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+#lists ul{
+    list-style-type: none;
+}
+#lists ul li a{
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 3px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}

@@ -1,0 +1,53 @@
+.red, .scale{
+    position: relative;
+}
+.scale{
+    z-index: 2;
+    margin-left: 710px;
+    margin-top: -350px;
+}
+
+.red{
+    opacity: 0;
+    z-index: 1 ;
+    left: 660px;
+    top: 203px;
+}
+
+@keyframes myanim{
+    from{
+        transform: scale(1, 1);
+    }
+    90%{
+
+    }
+    to{
+        transform: scale(1.8, 1.8);
+        right: 1000%;
+    }
+}
+
+.scale:active{
+    animation-timing-function: ease-in-out;
+    animation-name: myanim;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    
+}
+
+@keyframes myanimm{
+    
+    from{
+        opacity: 0;
+    }   
+    to{
+        opacity: 1;
+    }
+}
+.red:hover{
+    animation-timing-function:ease;
+    animation-name: myanimm;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+     

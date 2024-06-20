@@ -1,0 +1,116 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    color: white;
+    background-color: #3C5A9A;
+}
+.load{
+    background-color:#D0D6E2;
+}
+.load1{
+    border: 1px #99A6C1 solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.bord{
+    border: 1px solid black;
+    padding: 20px;
+}
+@media (max-width:1008px) {
+    *{
+        text-align: left;
+    }
+    img{
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+    .text1{
+        float: right;
+        margin-right: 15px;
+    }
+    .load{        
+        padding-top: 5px;
+        padding-bottom: 5.5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .load1{
+        width: 100%;
+        
+    }
+    button{
+        width: 100%;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+}
+@media (min-width:1009px) {
+
+    .bord{
+        border: 1px solid black;
+        padding: 20px;
+        padding-right: 110px;
+    }
+    div,h2{
+        display: inline-block;
+    }
+    button{
+        position: relative;
+        left: 460px;
+        bottom: 131px;
+        padding-left: 46px;
+        padding-right: 46px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .load1{
+        margin-bottom: 16px;
+    }
+    h2, .text{
+        position: relative;
+        bottom: 10px;
+    }
+    .load{
+        padding-top: 5px;
+        padding-bottom: 5.8px;
+        padding-left: 20px;
+        padding-right: 40px;
+        margin-right: 37px;
+    }
+    .load1{
+        padding-right: 20px;
+    }
+}
+@media (max-width:440px) {
+    *{
+        text-align: left;
+    }
+    img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .text1{
+        display: none;
+    }
+    .load{        
+        padding-top: 5.2px;
+        padding-bottom: 5.5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .load1{
+        width: 100%;
+    }
+    button{
+        width: 100%;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+}

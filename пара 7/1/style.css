@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    position: relative;
+    border: 1px solid black;
+    /* display: inline-block; */
+}
+
+#seconds{
+    top: 50px;
+    left: 30px;
+}
+#parent{
+    top: 60px;
+    height: 100px;
+    width: 500px;
+}
+#child1{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 20px;
+    left: 20px;
+    background-color: orange;
+    z-index: 2;
+}
+#child2{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 30px;
+    left: 30px;
+    background-color: olive;
+    z-index: 1;
+}
+#call-me{
+    bottom: 10px;
+    right: 10px;
+    background-color: blueviolet;
+    height: 40px;
+    width: 60px;
+    color: white;
+    border-radius: 20px;
+    z-index: 10;
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+    cursor: pointer;
+    position:fixed;
+}

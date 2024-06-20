@@ -1,0 +1,26 @@
+.conteiner{
+    border: 1px solid red;
+    /* height: 90vh;  */
+    display: flex;
+    flex-direction: row;  
+
+
+}
+.item{
+    padding: 40px;
+    font-size: 30px;
+    border: 1px solid black;
+    height: fit-content;
+    width: fit-content;
+    flex-basis: 33%;
+}
+
+.item1{ 
+
+}
+.item2{
+    flex-grow: 2;
+}
+.item3{
+
+}  

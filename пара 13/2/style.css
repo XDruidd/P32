@@ -1,0 +1,25 @@
+.container{
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'section1 section2 section2'
+    'section1 footer footer';
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.header{
+    grid-area: header;
+}
+.section1{
+    grid-area: section1;
+}
+.section2{
+    grid-area: section2;
+}
+.footer{
+    grid-area: footer;
+}
+.item{
+  padding: 10px;
+  border: 1px solid;   
+}

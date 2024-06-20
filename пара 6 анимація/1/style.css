@@ -1,0 +1,60 @@
+div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    line-height: 100px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 1em;
+    transition-duration: 2s;
+}
+div::before{
+    content: attr(class);
+
+}
+
+.translate:hover{
+  transform: translate(50px);
+   
+}
+
+.scale:hover{
+    transform: scale(2, 2);
+    transform-origin: 0 100%;
+}   
+.rotate:hover{
+    transform-origin: 0% 100%;
+    transform: rotate(180deg);
+
+}
+.skew:hover{
+    transform: skew(-20deg) translate(20px);
+}
+.transition{
+    background-color: red;
+    color: white;
+    opacity: 0.5;
+}
+.transition:hover{
+    background-color: green;
+    width: 200px;
+    opacity: 1;
+}
+@keyframes myanim{
+    
+    from{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(500px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+.animation{
+    animation-timing-function: ease-in-out;
+    animation-name: myanim;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
